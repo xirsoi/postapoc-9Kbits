@@ -380,6 +380,7 @@ jewish;Orthodox;;;;;;;;;;;;;x
 jewish_DESC;Judaism is one of the oldest religions on the planet, and it survived the Event like it did so many other catastrophes. Although Orthodox Judaism itself has changed relatively little over the last few centuries, the Jews of post-Event America now face discrimination and persecution on a scale unheard of since the Middle Ages of old. Despite this, or perhaps because of it, Orthodox Jews still patiently await the arrival of the Moshiach, who will, in due time, gather the Jews living in exile and return them to the land promised to their forefathers. \nDefining features in game:;;;;;;;;;;;;;x
 reform;Reform;;;;;;;;;;;;;x
 reform_DESC;Reform Judaism first split from Orthodox Judaism in the 19th century, under the belief that in order for Judaism to survive in the modern age, it should reform to be more compatible with a modern, secular lifestyle. Reform Judaism regards Halacha (Jewish religious law) as non-binding, permits women to be ordained as rabbis, and is overall more open to external influences than Orthodox Judaism. Reform Jews actually outnumbered Orthodox Jews prior to the Event, but by 2666, Reform Judaism is the majority religion in only a single county - Palm Beach. \nDefining features in game: \n§Y*§! Absolute Cognatic succession is allowed for all Reform rulers.;;;;;;;;;;;;;x
+technology_worshippers;Technology Worshippers;;;;;;;;;;;;;x
 
 STAT_PIETY_PATRIOTISM;Patriotism;;;;;;;;;;;;;x
 STAT_PIETY_MENU_PATRIOTISM;Patriotism;;;;;;;;;;;;;x
@@ -727,6 +728,7 @@ TECHPRIEST;Tech-Priest;;;;;;;;;;;;;x
 THANE_FOA;Thane;;;;;;;;;;;;;x
 THANE;Thane;;;;;;;;;;;;;x
 THAUMATURGE;Thaumaturge;;;;;;;;;;;;;x
+THE_LECTURES;The Feynman Lectures;;;;;;;;;;;;;x
 THE_BOOK_OF_RUST;The Book of Rust;;;;;;;;;;;;;x
 THE_BOOK_OF_THE_LAW;The Book of the Law;;;;;;;;;;;;;x
 THE_CATALOG;The Catalog;;;;;;;;;;;;;x

@@ -672,7 +672,12 @@ d_large_ships_composition = {
 	levy_size = 1
 	galleys = 30
 }
-
+d_nnsa_composition = {
+	levy_size = 1
+	archers = 50
+	heavy_infantry = 200
+	pikemen = 700
+}
 
 ## Must exist or else dynamic mercenary band might fail for nomads!
 default_culture_band_composition = {
