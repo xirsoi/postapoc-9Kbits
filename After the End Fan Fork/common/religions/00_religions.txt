@@ -178,7 +178,7 @@ afro_syncretic = {
 		religious_clothing_priest = 3
 	}
 	indu = {
-		graphical_culture = indiangfx
+		graphical_culture = hindugfx
 		
 		icon = 65
 		#heresy_icon = 64

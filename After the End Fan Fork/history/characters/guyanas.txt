@@ -146,7 +146,7 @@
 	dynasty=1901033
 	female=yes
 	culture=guyanese
-	religion=espiritista
+	religion=indu
 	trait=thrifty_clerk
 	trait=cynical
 	trait=humble
@@ -190,7 +190,7 @@
 	name="Geert-Jan"
 	dynasty=1603003
 	culture=sranan
-	religion=espiritista
+	religion=indu
 	trait=midas_touched
 	trait=ugly
 	trait=scarred
@@ -257,7 +257,7 @@
 	name="Jules"
 	dynasty=1603004
 	culture=sranan
-	religion=espiritista
+	religion=indu
 	trait=brave
 	trait=ambitious
 	2642.5.4={birth=yes}
@@ -268,7 +268,7 @@
 	name="Lucien"
 	dynasty=1603005
 	culture=sranan
-	religion=espiritista
+	religion=indu
 	trait=shrewd
 	trait=content
 	2638.5.4={birth=yes}
@@ -279,7 +279,7 @@
 	name="Lyrical"
 	dynasty=1604006
 	culture=cayennais
-	religion=espiritista
+	religion=indu
 	trait=grey_eminence
 	trait=poet
 	trait=lustful

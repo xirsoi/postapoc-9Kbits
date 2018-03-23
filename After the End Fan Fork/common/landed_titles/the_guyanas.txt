@@ -16,6 +16,7 @@
 				color={ 88 197 122 }
 				color2={ 255 255 255 }
 				holy_site = rastafarian
+				holy_site = indu
 				
 				b_georgetown_GUY = {}
 				b_lagrange_GUY = {}
@@ -157,6 +158,7 @@
 			c_paramaribo = { # 3273
 				color={ 118 155 179 }
 				color2={ 255 255 255 }
+				holy_site = indu
 				
 				b_paramaribo_SUR = {}
 				b_lelydorp_SUR = {}
