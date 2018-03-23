@@ -135,7 +135,7 @@
 	name="Rosa"
 	female=yes
 	culture=guyanese
-	religion=espiritista
+	religion=indu
 	2620.5.4={birth=yes}
 	2640.3.1={add_spouse=1800015}
 	2642.2.6={death=yes}
