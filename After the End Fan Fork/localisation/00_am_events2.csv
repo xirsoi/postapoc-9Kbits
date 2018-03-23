@@ -1718,21 +1718,3 @@ EVTOPT_america_emperor;My fellow Americans...;;;;;;;;;;;;;x
 EVTOPT_america_emperor_coreligionist;Hail to the Chief!;;;;;;;;;;;;;x
 EVTOPT_america_emperor_infidel;Not my President!;;;;;;;;;;;;;x
 EVTOPT_america_emperor_dixie;Damn Yankees!;;;;;;;;;;;;;x
-
-celebrate_diwali;Celebrate Diwali;;;;;;;;;;;;;x
-celebrate_diwali_desc;As a follower of the Indu faith, you can celebrate Diwali - the Festival of the Lights - every autumn, and can invite your vassals to join you as well.;;;;;;;;;;;;;x
-EVTDESC_diwali_invitation;I will send my vassals invitations to celebrate Diwali with me this year.;;;;;;;;;;;;;x
-EVTOPTA_diwali_invitation;Send the invitations!;;;;;;;;;;;;;x
-EVTTOOLTIP_diwali_invited;You send the invitations for this year's Diwali.;;;;;;;;;;;;;x
-EVTDESC_diwali_invited;Your liege has invited you to their Diwali celebrations.;;;;;;;;;;;;;x
-EVTOPTA_diwali_invited;Of course I will attend!;;;;;;;;;;;;;x
-EVTOPTB_diwali_invited;I don't think I'll go this year.;;;;;;;;;;;;;x
-EVTTOOLTIP_diwali_refused;You refuse the invitation.;;;;;;;;;;;;;x
-EVTDESC_diwali_vassal_refused;One of your vassals does not want to celebrate Diwali with you, citing other plans.;;;;;;;;;;;;;x
-EVTOPTA_diwali_vassal_refused;A likely story!;;;;;;;;;;;;;x
-EVTDESC_diwali_begins;The first day of Diwali, Dhanteras, has begun. Your residence has been meticulously cleaned and the appropriate decorations have been set up in preparation for the arrival of your vassals. The diyas will be lighted tonight, and they will continue burning through all five nights.;;;;;;;;;;;;;x
-EVTOPTA_diwali_begins;Welcome, friends!;;;;;;;;;;;;;x
-EVTDESC_diwali_ends;The last day of Diwali, Bhai Duj, has ended. The day is dedicated to celebrating the love that brothers and sisters have for each other. Prayers were said, food was shared, and gifts were exchanged. Your vassals are now preparing to return home.;;;;;;;;;;;;;x
-EVTOPTA_diwali_ends_host;Until next year!;;;;;;;;;;;;;x
-EVTDESC_diwali_ends_guest;The last day of Diwali, Bhai Duj, has ended. The day is dedicated to celebrating the love that brothers and sisters have for each other. Prayers were said, food was shared, and gifts were exchanged. You now prepare yourself for the journey home.;;;;;;;;;;;;;x
-EVTOPTA_diwali_ends_guest;See you next year!;;;;;;;;;;;;;x
