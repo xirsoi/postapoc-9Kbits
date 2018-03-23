@@ -1,0 +1,179 @@
+#namespace = indu
+
+#Send invites
+character_event = {
+	id = indu.1
+	desc = "EVTDESC_diwali_invitation"
+	picture = GFX_evt_cathedral_indian_group
+
+	is_triggered_only = yes
+
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	war = no
+
+	trigger = {
+		has_character_modifier = holding_diwali
+		NOT = {
+			has_character_flag = sent_diwali_invitations
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA_diwali_invitation"
+		set_character_flag = sent_diwali_invitations
+		custom_tooltip = {
+			text = EVTTOOLTIP1_diwali_invitation
+		}
+		hidden_tooltip = {
+			character_event = { id = 72015 days = 20 }
+			any_vassal = {
+				limit = {
+					religion = indu
+					NOT = { trait = incapable }
+					prisoner = no
+					war = no
+					is_adult = yes
+				}
+				letter_event = {
+					id = indu.2
+					days = 2
+					#tooltip = "EVTTOOLTIP_diwali_invited"
+				}
+			}
+		}
+		hidden_tooltip = { character_event = { id = indu.4 days = 10 } }
+		hidden_tooltip = { character_event = { id = indu.5 days = 15 } }
+	}
+}
+
+character_event = {
+	id = indu.2
+	desc = EVTDESC_diwali_invited
+	picture = GFX_evt_cathedral_indian_group
+	border = GFX_event_normal_frame_religion
+	
+	is_triggered_only = yes
+	
+	trigger = { NOT = { is_inaccessible_trigger = yes } }
+	
+	option = {
+		name = "EVTOPTA_diwali_invited" #Travel to the feast
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				opinion = { who = from value = -40 }
+			}
+			modifier  = {
+				factor = 2
+				opinion = { who = from value = -20 }
+			}
+		}
+		set_character_flag = coming_to_diwali
+		set_character_flag = do_not_disturb
+		hidden_tooltip = { character_event = { id = indu.4 days = 8 } }
+		hidden_tooltip = { character_event = { id = indu.6 days = 13 } }
+	}
+	option = {
+		name = "EVTOPTB_diwali_invited" #Refuse
+		ai_chance = {
+			factor = 1
+			modifier  = {
+				factor = 2
+				NOT = { opinion = { who = from value = -60 } }
+			}
+			modifier  = {
+				factor = 2
+				NOT = { opinion = { who = from value = -80 } }
+			}
+		}
+		FROM = {
+			letter_event = {
+				id = indu.3
+				days = 1
+				random = 2
+				tooltip = "EVTTOOLTIP_diwali_refused"
+			}
+		}
+	}
+}
+
+#Vassal refused to come to the diwali
+letter_event = {
+	id = indu.3
+	desc = "EVTDESC_diwali_vassal_refused"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA_diwali_vassal_refused"
+		opinion = {
+			modifier = opinion_dislike
+			who = FROM
+			years = 10
+		}
+	}
+}
+
+character_event = { #Celebration begins
+	id = indu.4
+	desc = EVTDESC_diwali_begins
+	picture = GFX_evt_cathedral_indian_group
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_diwali_begins
+	}
+}
+
+character_event = { #Celebration ends for host
+	id = indu.5
+	desc = EVTDESC_diwali_ends
+	picture = GFX_evt_cathedral_indian_group
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_diwali_ends_host
+		any_vassal = {
+			limit = { has_character_flag = coming_to_diwali }
+			opinion = {
+				modifier = held_diwali
+				who = ROOT
+			}
+		}
+		add_character_modifier = {
+			name = held_diwali
+			duration = 1095
+			hidden = yes
+		}
+		prestige = 50
+		piety = 50
+		clr_character_flag = sent_diwali_invitations
+		clr_character_flag = holding_diwali
+		clr_character_flag = do_not_disturb
+	}
+}
+
+character_event = { #Celebration ends for guest
+	id = indu.5
+	desc = EVTDESC_diwali_ends_guest
+	picture = GFX_evt_cathedral_indian_group
+	border = GFX_event_normal_frame_religion
+	
+	hide_from = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTA_diwali_ends_guest
+		clr_character_flag = coming_to_diwali
+		clr_character_flag = do_not_disturb
+	}
+}
