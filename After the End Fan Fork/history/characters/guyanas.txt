@@ -208,7 +208,7 @@
 	name="Martine"
 	female=yes
 	culture=sranan
-	religion=espiritista
+	religion=indu
 	trait=proud
 	trait=wroth
 	trait=charitable
@@ -223,7 +223,7 @@
 	female=yes
 	dynasty=1603003
 	culture=sranan
-	religion=espiritista
+	religion=indu
 	father=1800025
 	mother=1800026
 	2645.5.4={birth=yes}
@@ -234,7 +234,7 @@
 	name="Guillano"
 	dynasty=1603003
 	culture=sranan
-	religion=espiritista
+	religion=indu
 	father=1800025
 	mother=1800026
 	2649.5.4={birth=yes}
@@ -246,7 +246,7 @@
 	female=yes
 	dynasty=1603003
 	culture=sranan
-	religion=espiritista
+	religion=indu
 	father=1800025
 	mother=1800026
 	2652.5.4={birth=yes}
@@ -296,7 +296,7 @@
 	name="Claire"
 	female=yes
 	culture=cayennais
-	religion=espiritista
+	religion=indu
 	trait=elusive_shadow 
 	trait=poet
 	trait=lustful
@@ -311,7 +311,7 @@
 	name="Lyrical"
 	dynasty=1604006
 	culture=cayennais
-	religion=espiritista
+	religion=indu
 	father=1800035
 	mother=1800036
 	2659.5.4={birth=yes}
@@ -322,7 +322,7 @@
 	name="Marc-Antoine"
 	dynasty=1604006
 	culture=cayennais
-	religion=espiritista
+	religion=indu
 	father=1800035
 	mother=1800036
 	2660.5.4={birth=yes}
@@ -334,7 +334,7 @@
 	female=yes
 	dynasty=1604006
 	culture=cayennais
-	religion=espiritista
+	religion=indu
 	father=1800035
 	mother=1800036
 	2662.5.4={birth=yes}
@@ -345,7 +345,7 @@
 	name="Gabriel"
 	dynasty=1604006
 	culture=cayennais
-	religion=espiritista
+	religion=indu
 	father=1800035
 	mother=1800036
 	2663.5.4={birth=yes}
@@ -357,7 +357,7 @@
 	female=yes
 	dynasty=1604006
 	culture=cayennais
-	religion=espiritista
+	religion=indu
 	father=1800035
 	mother=1800036
 	2665.5.4={birth=yes}
