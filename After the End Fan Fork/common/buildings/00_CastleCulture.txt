@@ -288,9 +288,11 @@ castle = {
 		desc = ca_culture_native_american_1_desc
 		potential = {
 			FROM = { 
-				culture = comanche
-				culture = sioux
-				culture_group = plateau
+				OR = {
+					culture = comanche
+					culture = sioux
+					culture_group = plateau
+				}
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
@@ -310,9 +312,11 @@ castle = {
 		desc = ca_culture_native_american_1_desc
 		potential = {
 			FROM = { 
-				culture = comanche
-				culture = sioux
-				culture_group = plateau
+				OR = {
+					culture = comanche
+					culture = sioux
+					culture_group = plateau
+					}
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
@@ -332,9 +336,11 @@ castle = {
 		desc = ca_culture_native_american_1_desc
 		potential = {
 			FROM = { 
-				culture = comanche
-				culture = sioux
-				culture_group = plateau
+				OR = {
+					culture = comanche
+					culture = sioux
+					culture_group = plateau
+				}
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
@@ -354,9 +360,11 @@ castle = {
 		desc = ca_culture_native_american_1_desc
 		potential = {
 			FROM = { 
-				culture = comanche
-				culture = sioux
-				culture_group = plateau
+				OR = {
+					culture = comanche
+					culture = sioux
+					culture_group = plateau
+				}
 			}
 		}
 		trigger = { TECH_CASTLE_CONSTRUCTION = 4 }
