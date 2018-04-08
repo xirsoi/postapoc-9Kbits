@@ -127,6 +127,10 @@ region_cayman = {
 	provinces = { 3173 }
 }
 
+region_cayman_islands = {
+	provinces = { 635 }
+}
+
 region_anticosti = {
 	provinces = { 593 }
 }

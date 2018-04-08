@@ -419,8 +419,20 @@ e_caribbean = {
 				b_bodden_town_KY = {}
 				b_north_side_KY = {}
 				b_east_end_KY = {}
+				b_rum_point_KY = {}
+			}
+			
+			c_sister_islands = { #635
+				color = { 155 209 228 }
+				color2={ 255 255 255 }
+				
 				b_cayman_brac_KY = {}
 				b_little_cayman_KY = {}
+				b_blossom_village_KY = {}
+				b_bodden_KY = {}
+				b_kirkconnell_KY = {}
+				b_buccaneer_KY = {}
+				b_bloody_bay_KY = {}
 			}
 		}
 		d_isla_de_san_andres = {

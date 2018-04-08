@@ -11643,7 +11643,10 @@ c_catatumbo;Catatumbo;Catatumbo;Catatumbo;;Catatumbo;;;;;;;;;x
 c_catawba_adj;Catawban;;;;;;;;;;;;;x
 c_cayenne_adj;Cayennean;;cayenner;;;;;;;;;;;x
 c_cayenne;Cayenne;Cayenne;Cayenne;;Cayenne;;;;;;;;;x
-c_cayman_adj;Cayman;;;;;;;;;;;;;x
+c_cayman_adj;Caymanian;;;;;;;;;;;;;x
+c_cayman;Cayman;;;;;;;;;;;;;x
+c_cayman_islands_adj;Sister Islander;;;;;;;;;;;;;x
+c_cayman_islands;Sister Islands;;;;;;;;;;;;;x
 c_cedar_adj;Cedarian;;;;;;;;;;;;;x
 c_cedeno_adj;Cedeñian;;cedeñer;;;;;;;;;;;x
 c_cedeno;Cedeño;Cedeño;Cedeño;;Cedeño;;;;;;;;;x
@@ -14952,3 +14955,8 @@ b_birken_BC;Birken;;;;;;;;;;;;;x
 b_darcy_BC;D'Arcy;;;;;;;;;;;;;x
 b_garibaldi_BC;Garibaldi;;;;;;;;;;;;;x
 d_yukon_travellers;Yukon Travellers;;;;;;;;;;;;;x
+b_blossom_village_KY;Blossom Village;;;;;;;;;;;;;x
+b_bodden_KY;Bodden;;;;;;;;;;;;;x
+b_kirkconnell_KY;Kirkconnell;;;;;;;;;;;;;x
+b_buccaneer_KY;Buccaneer;;;;;;;;;;;;;x
+b_bloody_bay_KY;Bloody Bay;;;;;;;;;;;;;x

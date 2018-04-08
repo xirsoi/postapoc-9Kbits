@@ -1,0 +1,16 @@
+# Cayman Islands
+
+# County Title
+title = c_sister_islands
+
+# Settlements
+max_settlements = 2
+
+b_cayman_brac_KY = castle
+b_little_cayman_KY = city
+
+# Misc
+culture = west_indian
+religion = rastafarian
+
+#History
