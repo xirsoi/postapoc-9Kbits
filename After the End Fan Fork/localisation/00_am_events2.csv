@@ -1745,3 +1745,6 @@ convert_to_yanquito_desc;The ancestral tongue is spoken by ever fewer of our peo
 EVTDESC_melting_pot_7;The people of [Root.GetName] have developed their language and customs to a point where they may now be considered part of a distinct branch of American culture. They have begun to refer to themselves as Yanquitos.;;;;;;;;;x
 EVTOPTA_melting_pot_7;What will they think of next, I wonder?;;;;;;;;;x
 EVTOPTB_melting_pot_7;Welcome into the fold, my Yanquito brothers and sisters!;;;;;;;;;x
+
+EVTDESC_yiddish_1;Many Jews live in your realm, especially in [Root.GetName], where they formed a majority of the population until recently. However, the majority of the Jews living in [Root.GetName] have been converted to the one true faith, and they have also abandoned their Yiddish culture. Their language and mannerisms are now indistinguishable from your own...;;;;;;;;;x
+EVTOPTA_yiddish_1;Interesting...;;;;;;;;;x

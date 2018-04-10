@@ -1,0 +1,49 @@
+#namespace = yiddish
+
+# Province adopts liege culture if the county isn't Jewish
+character_event = {
+	id = yiddish.1
+	desc = EVTDESC_yiddish_1
+	picture = GFX_evt_stone_church
+	
+	only_playable = yes
+	
+	trigger = {
+		NOR = {
+			culture = yiddish
+			religion_group = jewish_group
+		}
+		any_demesne_province = {
+			culture = yiddish
+			NOT = { religion_group = jewish_group }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 3
+			OR = {
+				has_game_rule = {
+					name = culture_conversion
+					value = slower_normal
+				}
+				has_game_rule = {
+					name = culture_conversion
+					value = faster_melting_pots_and_slower_normal
+				}
+			}
+		}
+	}
+
+	option = {
+		name = EVTOPTA_yiddish_1
+		any_demesne province = {
+			limit = {
+				culture = yiddish
+				NOT = { religion_group = jewish_group }
+			}
+			culture = ROOT
+		}
+	}
+}
