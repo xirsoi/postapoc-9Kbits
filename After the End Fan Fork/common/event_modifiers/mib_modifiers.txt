@@ -1,0 +1,144 @@
+borrowed_from_mib = {
+	icon = 24
+	church_opinion = -10
+}
+
+mib_debt = {
+	icon = 24
+}
+
+astounding_visions = {
+	is_visible = { 
+		OR = {
+			society_member_of = the_men_in_black
+			character = FROM
+		}
+	}
+	icon = 81
+	diplomacy = 2
+	stewardship = 2
+	martial = 2
+	intrigue = 2
+	learning = 2
+}
+
+uplifting_visions = {
+	is_visible = { 
+		OR = {
+			society_member_of = the_men_in_black
+			character = FROM
+		}
+	}
+	icon = 81
+	diplomacy = 1
+	stewardship = 1
+	martial = 1
+	intrigue = 1
+	learning = 1
+}
+
+frightening_visions = {
+	is_visible = { 
+		OR = {
+			society_member_of = the_men_in_black
+			character = FROM
+		}
+	}
+	icon = 82
+	diplomacy = -1
+	stewardship = -1
+	martial = -1
+	intrigue = -1
+	learning = -1
+}
+
+hashish_addict = {
+	is_visible = { 
+		OR = {
+			society_member_of = the_men_in_black
+			character = FROM
+		}
+	}
+	icon = 88
+	health = -0.5
+}
+
+withdrawal_symptoms = {
+	is_visible = { 
+		OR = {
+			society_member_of = the_men_in_black
+			character = FROM
+		}
+	}
+	icon = 40
+	health = -0.5
+	diplomacy = -2
+	stewardship = -2
+	martial = -2
+	intrigue = -2
+	learning = -2
+	combat_rating = -2
+}
+
+foolish_behavior = {
+	general_opinion = -10
+	church_opinion = -10
+	icon = 40
+}
+
+trade_district_fire = {
+	icon = 22
+	city_tax_modifier = -0.5
+}
+
+# The Men In Black Insights
+diplomatic_insight = {
+	is_visible = { 
+		OR = {
+			society_member_of = the_men_in_black
+			character = FROM
+		}
+	}
+	icon = 3
+	diplomacy = 2
+}
+martial_insight = {
+	is_visible = { 
+		OR = {
+			society_member_of = the_men_in_black
+			character = FROM
+		}
+	}
+	icon = 1
+	martial = 2
+}
+intrigue_insight = {
+	is_visible = { 
+		OR = {
+			society_member_of = the_men_in_black
+			character = FROM
+		}
+	}
+	icon = 5
+	intrigue = 2
+}
+learning_insight = {
+	is_visible = { 
+		OR = {
+			society_member_of = the_men_in_black
+			character = FROM
+		}
+	}
+	icon = 2
+	learning = 2
+}
+stewardship_insight = {
+	is_visible = { 
+		OR = {
+			society_member_of = the_men_in_black
+			character = FROM
+		}
+	}
+	icon = 4
+	stewardship = 2
+}
