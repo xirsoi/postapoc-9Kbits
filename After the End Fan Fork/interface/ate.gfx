@@ -1578,37 +1578,43 @@ spriteTypes = {
 	}
 		spriteType = {
 		name = "GFX_secretly_rastafarian"
-		texturefile = "gfx\\interface\\secret_religion_rastafarian.tga"
+		texturefile = "gfx\\interface\\secret_religion_rastafarian.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 		spriteType = {
 		name = "GFX_secretly_voodoo"
-		texturefile = "gfx\\interface\\secret_religion_voodoo.tga"
+		texturefile = "gfx\\interface\\secret_religion_voodoo.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 		spriteType = {
 		name = "GFX_secretly_santeria"
-		texturefile = "gfx\\interface\\secret_religion_santeria.tga"
+		texturefile = "gfx\\interface\\secret_religion_santeria.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 		spriteType = {
 		name = "GFX_secretly_candomble"
-		texturefile = "gfx\\interface\\secret_religion_candomble.tga"
+		texturefile = "gfx\\interface\\secret_religion_candomble.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 		spriteType = {
 		name = "GFX_secretly_espiritista"
-		texturefile = "gfx\\interface\\secret_religion_espiritista.tga"
+		texturefile = "gfx\\interface\\secret_religion_espiritista.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
 		spriteType = {
 		name = "GFX_secretly_espiritista_reformed"
-		texturefile = "gfx\\interface\\secret_religion_espiritista_reformed.tga"
+		texturefile = "gfx\\interface\\secret_religion_espiritista_reformed.dds"
+		noOfFrames = 1
+		norefcount = yes
+	}
+		spriteType = {
+		name = "GFX_secretly_americanist"
+		texturefile = "gfx\\interface\\secret_religion_americanist.dds"
 		noOfFrames = 1
 		norefcount = yes
 	}
