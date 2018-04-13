@@ -16,8 +16,16 @@
 narrative_event = {
 	id = 88000
 	title = "EVTNAME88000"
-	desc = "EVTDESC88000"
 	major = yes
+	
+	desc = {
+		trigger = { NOT = { society_member_of = the_men_in_black } }
+		text = EVTDESC88000
+	}
+	desc = {
+		trigger = { society_member_of = the_men_in_black }
+		text = EVTDESC88000_ASSASSIN
+	}
 	
 	picture = GFX_evt_shadow
 	
@@ -188,8 +196,13 @@ narrative_event = {
 	}
 	
 
-	option = {
-		name = "EVTOPTA88000"
+	name = {
+		text = EVTOPTA88000
+		trigger = { NOT = { society_member_of = the_men_in_black } }
+	}
+	name = {
+		text = EVTOPTA_6028
+		trigger = { society_member_of = the_men_in_black }
 	}
 }
 
@@ -197,8 +210,16 @@ narrative_event = {
 narrative_event = {
 	id = 88001
 	title = "EVTNAME88001"
-	desc = "EVTDESC88001"
 	major = yes
+	
+	desc = {
+		trigger = { NOT = { society_member_of = the_men_in_black } }
+		text = EVTDESC88001
+	}
+	desc = {
+		trigger = { society_member_of = the_men_in_black }
+		text = EVTDESC88001_ASSASSIN
+	}
 	
 	picture = "GFX_evt_shadow"
 	
@@ -235,9 +256,22 @@ narrative_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTA88001"
 		trigger = { 
 			NOT = { has_landed_title = d_men_in_black }
+		}
+		name = {
+			text = EVTOPTA88001
+			trigger = {
+				NOT = { has_landed_title = d_men_in_black }
+				NOT = { society_member_of = the_men_in_black }
+			}
+		}
+		name = {
+			text = EVTOPTA_6028
+			trigger = {
+				NOT = { has_landed_title = d_men_in_black }
+				society_member_of = the_men_in_black
+			}
 		}
 	}
 }
@@ -246,8 +280,16 @@ narrative_event = {
 narrative_event = {
 	id = 88002
 	title = "EVTNAME88002"
-	desc = "EVTDESC88002"
 	major = yes
+	
+	desc = {
+		trigger = { NOT = { society_member_of = the_men_in_black } }
+		text = EVTDESC88002
+	}
+	desc = {
+		trigger = { society_member_of = the_men_in_black }
+		text = EVTDESC88002_ASSASSIN
+	}
 	
 	picture = "GFX_evt_shadow"
 	
@@ -282,15 +324,37 @@ narrative_event = {
 			NOT = { has_landed_title = d_men_in_black }
 		}
 	}
+	option = {
+		name = {
+			text = EVTOPTA88002
+			trigger = { NOT = { society_member_of = the_men_in_black } }
+		}
+		name = {
+			text = EVTOPTA88002_ASSASSIN
+			trigger = { society_member_of = the_men_in_black }
+		}
+
+		trigger = {
+			NOT = { has_landed_title = d_men_in_black }
+		}
+	}
 }
 
 # The Assassins resurface!
 narrative_event = {
 	id = 88003
 	title = "EVTNAME88003"
-	desc = "EVTDESC88003"
 	major = yes
 	hide_from = yes
+	
+	desc = {
+		trigger = { NOT = { society_member_of = the_men_in_black } }
+		text = EVTDESC88003
+	}
+	desc = {
+		trigger = { society_member_of = the_men_in_black }
+		text = EVTDESC88003_ASSASSIN
+	}
 	
 	picture = "GFX_evt_shadow"
 	only_playable = yes
@@ -333,14 +397,32 @@ narrative_event = {
 			NOT = { has_landed_title = d_men_in_black }
 		}
 	}
+	option = {
+		name = {
+			text = EVTOPTA88003
+			trigger = { NOT = { society_member_of = the_men_in_black } }
+		}
+		name = {
+			text = EVTOPTA_6028
+			trigger = { society_member_of = the_men_in_black }
+		}
+	}
 }
 
 # The Assassins are destroyed!
 narrative_event = {
 	id = 88004
 	title = "EVTNAME88004"
-	desc = "EVTDESC88004"
 	major = yes
+	
+	desc = {
+		trigger = { NOT = { society_member_of = the_men_in_black } }
+		text = EVTDESC88004
+	}
+	desc = {
+		trigger = { society_member_of = the_men_in_black }
+		text = EVTDESC88004_ASSASSIN
+	}
 	
 	picture = "GFX_evt_shadow"
 	
@@ -367,6 +449,19 @@ narrative_event = {
 	}
 	option = {
 		name = "EVTOPTA88004"
+		trigger = { 
+			NOT = { has_landed_title = d_men_in_black }
+		}
+	}
+	option = {
+		name = {
+			text = EVTOPTA88004
+			trigger = { NOT = { society_member_of = the_men_in_black } }
+		}
+		name = {
+			text = EVTOPTA_6028
+			trigger = { society_member_of = the_men_in_black }
+		}
 		trigger = { 
 			NOT = { has_landed_title = d_men_in_black }
 		}
@@ -863,6 +958,7 @@ character_event = {
 		age = 16
 		in_command = no
 		NOT = { spouse = { character = host } }
+		NOT = { society_member_of = the_men_in_black }
 	}
 	
 	mean_time_to_happen = {
