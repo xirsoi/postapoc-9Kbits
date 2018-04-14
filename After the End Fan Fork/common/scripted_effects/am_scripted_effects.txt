@@ -336,6 +336,7 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
 							has_character_flag = character_was_candomble
 							has_character_flag = character_was_espiritista
 							has_character_flag = character_was_espiritista_reformed
+							has_character_flag = character_was_americanist
     					}
     				}
     				religion = americanist
