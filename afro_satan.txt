@@ -1,4 +1,4 @@
-the_summoners_of_eshu = {
+the_summoners = {
 	primary_attribute = intrigue
 	is_secret = yes
 	criminal = yes
@@ -32,7 +32,7 @@ the_summoners_of_eshu = {
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
-					society = the_summoners_of_eshu
+					society = the_summoners
 					rank = 1
 				}
 			}
@@ -84,7 +84,7 @@ the_summoners_of_eshu = {
 		modifier = { 
 			is_visible = {
 				OR = {
-					society_member_of = the_summoners_of_eshu
+					society_member_of = the_summoners
 					FROM = { is_society_discovered = yes }
 				}
 			}
@@ -131,7 +131,7 @@ the_summoners_of_eshu = {
 		modifier = { 
 			is_visible = {
 				OR = {
-					society_member_of = the_summoners_of_eshu
+					society_member_of = the_summoners
 					FROM = { is_society_discovered = yes }
 				}
 			}
@@ -160,7 +160,7 @@ the_summoners_of_eshu = {
 	}
 
 	monthly_currency_gain = {
-		name = currency_name_the_summoners_of_eshu
+		name = currency_name_the_summoners
     
 		per_attribute = {
 			name = intrigue
