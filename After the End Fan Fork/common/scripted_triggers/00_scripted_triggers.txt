@@ -2183,7 +2183,6 @@ is_devil_worshiper_trigger = {
 		text = IS_DEVIL_WORSHIPPER_TRIGGER
 		OR = {
 			society_member_of = the_satanists
-			society_member_of = the_cold_ones
 			society_member_of = the_plaguebringers
 			society_member_of = the_cult_of_kali
 			society_member_of = the_trollcrafters
@@ -3143,11 +3142,12 @@ has_satanists_prerequisites = {
 	has_common_devilworship_prerequisites = yes
 	OR = {
 		religion_group = christian
-		religion_group = muslim
-		religion_group = zoroastrian_group
 		religion_group = jewish_group
-		religion = zun_pagan
-		religion = zun_pagan_reformed
+		religion_group = latter_day_saints
+		religion_group = cult_of_saints
+		religion = revelationist
+		religion = revelationist_reformed
+		religion = zoroastrian
 	}
 }
 
@@ -3163,18 +3163,10 @@ has_cult_of_kali_prerequisites = {
 	}
 }
 
-has_cold_ones_prerequisites = {
-	has_common_devilworship_prerequisites = yes
-	OR = {
-		religion_openly_baltic_or_reformed_trigger = yes
-		religion_openly_slavic_or_reformed_trigger = yes
-		religion_openly_finnish_or_reformed_trigger = yes
-	}
-}
-
 has_plaguebringers_prerequisites = {
 	has_common_devilworship_prerequisites = yes
-	religion_openly_tengri_or_reformed_trigger = yes
+	religion = ghost_dance
+	religion = raven_tales
 }
 
 same_society_rank_as_prev_trigger = {
@@ -3257,211 +3249,211 @@ looting_artifact_event_religious_artifacts_trigger = {
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = cathar
-				ROOT = { religion = cathar }
+				has_artifact_flag = neognostic
+				ROOT = { religion = neognostic }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = fraticelli
-				ROOT = { religion = fraticelli }
+				has_artifact_flag = evangelical
+				ROOT = { religion = evangelical }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = waldensian
-				ROOT = { religion = waldensian }
+				has_artifact_flag = charismatic
+				ROOT = { religion = charismatic }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = lollard
-				ROOT = { religion = lollard }
+				has_artifact_flag = antinomian
+				ROOT = { religion = antinomian }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = orthodox
-				ROOT = { religion = orthodox }
+				has_artifact_flag = high_church
+				ROOT = { religion = high_church }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = bogomilist
-				ROOT = { religion = bogomilist }
+				has_artifact_flag = anglo_papalist
+				ROOT = { religion = anglo_papalist }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = monothelite
-				ROOT = { religion = monothelite }
+				has_artifact_flag = united_church
+				ROOT = { religion = united_church }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = iconoclast
-				ROOT = { religion = iconoclast }
+				has_artifact_flag = ursuline
+				ROOT = { religion = ursuline }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = paulician
-				ROOT = { religion = paulician }
+				has_artifact_flag = angeline
+				ROOT = { religion = angeline }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = miaphysite
-				ROOT = { religion = miaphysite }
+				has_artifact_flag = confederated
+				ROOT = { religion = confederated }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = monophysite
-				ROOT = { religion = monophysite }
+				has_artifact_flag = falling_star
+				ROOT = { religion = falling_star }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = nestorian
-				ROOT = { religion = nestorian }
+				has_artifact_flag = mormon
+				ROOT = { religion = mormon }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = messalian
-				ROOT = { religion = messalian }
+				has_artifact_flag = strangite
+				ROOT = { religion = strangite }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = sunni
-				ROOT = { religion = sunni }
+				has_artifact_flag = godbeite
+				ROOT = { religion = godbeite }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = zikri
-				ROOT = { religion = zikri }
+				has_artifact_flag = bickertonite
+				ROOT = { religion = bickertonite }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = yazidi
-				ROOT = { religion = yazidi }
+				has_artifact_flag = americanist
+				ROOT = { religion = americanist }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = shiite
-				ROOT = { religion = shiite }
+				has_artifact_flag = hamiltonian
+				ROOT = { religion = hamiltonian }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = druze
-				ROOT = { religion = druze }
+				has_artifact_flag = jeffersonian
+				ROOT = { religion = jeffersonian }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = hurufi
-				ROOT = { religion = hurufi }
+				has_artifact_flag = libertarian
+				ROOT = { religion = libertarian }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = ibadi
-				ROOT = { religion = ibadi }
+				has_artifact_flag = consumerist
+				ROOT = { religion = consumerist }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = kharijite
-				ROOT = { religion = kharijite }
+				has_artifact_flag = atomicist
+				ROOT = { religion = atomicist }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = jewish
-				ROOT = { religion = jewish }
+				has_artifact_flag = brethren
+				ROOT = { religion = brethren }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = samaritan
-				ROOT = { religion = samaritan }
+				has_artifact_flag = reform
+				ROOT = { religion = reform }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = karaite
-				ROOT = { religion = karaite }
+				has_artifact_flag = ghost_dance
+				ROOT = { religion = ghost_dance }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = zoroastrian
-				ROOT = { religion = zoroastrian }
+				has_artifact_flag = raven_tales
+				ROOT = { religion = raven_tales }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = mazdaki
-				ROOT = { religion = mazdaki }
+				has_artifact_flag = gaian
+				ROOT = { religion = gaian }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = manichean
-				ROOT = { religion = manichean }
+				has_artifact_flag = cetic
+				ROOT = { religion = cetic }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = khurmazta
-				ROOT = { religion = khurmazta }
+				has_artifact_flag = sacred_heart
+				ROOT = { religion = sacred_heart }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = bon
-				ROOT = { religion = bon }
+				has_artifact_flag = gracia_divina
+				ROOT = { religion = gracia_divina }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = taoist
-				ROOT = { religion = taoist }
+				has_artifact_flag = neomayan
+				ROOT = { religion = neomayan }
 			}
 		}
 		NAND = {
@@ -3474,15 +3466,15 @@ looting_artifact_event_religious_artifacts_trigger = {
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = buddhist
-				ROOT = { religion = buddhist }
+				has_artifact_flag = uahomche
+				ROOT = { religion = uahomche }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = jain
-				ROOT = { religion = jain }
+				has_artifact_flag = mictlantec
+				ROOT = { religion = mictlantec }
 			}
 		}
 		NAND = {
@@ -3495,57 +3487,43 @@ looting_artifact_event_religious_artifacts_trigger = {
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = baltic_pagan
-				ROOT = { OR = { religion = baltic_pagan religion = baltic_pagan_reformed } }
+				has_artifact_flag = occultist
+				ROOT = { OR = { religion = occultist religion = occultist_reformed } }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = finnish_pagan
-				ROOT = { OR = { religion = finnish_pagan religion = finnish_pagan_reformed } }
+				has_artifact_flag = revelationist
+				ROOT = { OR = { religion = revelationist religion = revelationist_reformed } }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = slavic_pagan
-				ROOT = { OR = { religion = slavic_pagan religion = slavic_pagan_reformed } }
+				has_artifact_flag = rust_cultist
+				ROOT = { OR = { religion = rust_cultist religion = rust_cultist_reformed } }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = tengri_pagan
-				ROOT = { OR = { religion = tengri_pagan religion = tengri_pagan_reformed } }
+				has_artifact_flag = thelemic
+				ROOT = { OR = { religion = thelemic religion = thelemic_reformed } }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = aztec
-				ROOT = { OR = { religion = aztec religion = aztec_reformed } }
+				has_artifact_flag = sol_invicta
+				ROOT = { religion = sol_invicta }
 			}
 		}
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = west_african_pagan
-				ROOT = { OR = { religion = west_african_pagan religion = west_african_pagan_reformed } }
-			}
-		}
-		NAND = {
-			any_artifact = {
-				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = zun_pagan
-				ROOT = { OR = { religion = zun_pagan religion = zun_pagan_reformed } }
-			}
-		}
-		NAND = {
-			any_artifact = {
-				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = hellenic_pagan
-				ROOT = { religion = hellenic_pagan }
+				has_artifact_flag = celticist
+				ROOT = { religion = celticist }
 			}
 		}
 		NAND = {
@@ -3558,6 +3536,55 @@ looting_artifact_event_religious_artifacts_trigger = {
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = rastafarian
+				ROOT = { religion = rastafarian }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = voodoo
+				ROOT = { religion = voodoo }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = santeria
+				ROOT = { religion = santeria }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = candomble
+				ROOT = { religion = candomble }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = espiritista
+				ROOT = { OR = { religion = espiritista religion = espiritista_reformed } }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = shinto
+				ROOT = { religion = shinto }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = nousthreskeia
+				ROOT = { religion = nousthreskeia }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = christian
 				ROOT = { religion_group = christian }
 			}
@@ -3565,8 +3592,8 @@ looting_artifact_event_religious_artifacts_trigger = {
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = muslim
-				ROOT = { religion_group = muslim }
+				has_artifact_flag = oldworld
+				ROOT = { religion_group = oldworld }
 			}
 		}
 		NAND = {
@@ -3579,8 +3606,8 @@ looting_artifact_event_religious_artifacts_trigger = {
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
-				has_artifact_flag = zoroastrian_group
-				ROOT = { religion_group = zoroastrian_group }
+				has_artifact_flag = american_native
+				ROOT = { religion_group = american_native }
 			}
 		}
 		NAND = {
@@ -3595,6 +3622,34 @@ looting_artifact_event_religious_artifacts_trigger = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = indian_group
 				ROOT = { religion_group = indian_group }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = pacific
+				ROOT = { religion_group = pacific }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = latter_day_saints
+				ROOT = { religion_group = latter_day_saints }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = cult_of_saints
+				ROOT = { religion_group = cult_of_saints }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = mesoamerican_gods
+				ROOT = { religion_group = mesoamerican_gods }
 			}
 		}
 	}
@@ -4192,65 +4247,34 @@ has_unsafe_secret_religion = {
 	NOT = { is_nomadic = yes }
 	OR = {
 		AND = {
-			NOT = { has_dlc = "The Sword of Islam" }
-			OR = {
-				secret_religion = sunni
-				secret_religion = zikri
-				secret_religion = yazidi
-				secret_religion = shiite
-				secret_religion = druze
-				secret_religion = hurufi
-				secret_religion = ibadi
-				secret_religion = kharijite
-			}
-		}
-		AND = {
 			NOT = { has_dlc = "Sons of Abraham" }
 			OR = {
 				secret_religion = jewish
-				secret_religion = samaritan
-				secret_religion = karaite
+				secret_religion = reform
 			}
 		}
 		AND = {
 			NOT = { has_dlc = "The Old Gods" }
 			OR = {
-				secret_religion = zoroastrian
-				secret_religion = mazdaki
-				secret_religion = manichean
-				secret_religion = khurmazta
-				secret_religion = bon
 				secret_religion = norse_pagan
 				secret_religion = norse_pagan_reformed
-				secret_religion = baltic_pagan
-				secret_religion = baltic_pagan_reformed
-				secret_religion = finnish_pagan
-				secret_religion = finnish_pagan_reformed
-				secret_religion = slavic_pagan
-				secret_religion = slavic_pagan_reformed
-				secret_religion = tengri_pagan
-				secret_religion = tengri_pagan_reformed
-				secret_religion = west_african_pagan
-				secret_religion = west_african_pagan_reformed
-				secret_religion = zun_pagan
-				secret_religion = zun_pagan_reformed
-				secret_religion = hellenic_pagan
+				secret_religion = occultist
+				secret_religion = occultist_reformed
+				secret_religion = revelationist
+				secret_religion = revelationist_reformed
+				secret_religion = rust_cultist
+				secret_religion = rust_cultist_reformed
+				secret_religion = thelemic
+				secret_religion = thelemic_reformed
+				secret_religion = celticist
 				secret_religion = pagan
-				secret_religion = aztec
-				secret_religion = aztec_reformed
 			}
 		}
 		AND = {
 			NOT = { has_dlc = "Rajas of India" }
 			OR = {
 				secret_religion = hindu
-				secret_religion = buddhist
-				secret_religion = jain
 			}
-		}
-		AND = {
-			NOT = { has_dlc = "Jade Dragon" }
-			secret_religion = taoist
 		}
 	}
 }
@@ -4638,8 +4662,6 @@ religion_openly_aztec_or_reformed_trigger = {
 has_dharmic_religion_trigger = {
 	OR = {
 		religion = hindu
-		religion = buddhist
-		religion = jain
 	}
 }
 
@@ -5110,65 +5132,33 @@ has_unsafe_religion = {
 	NOT = { is_nomadic = yes }
 	OR = {
 		AND = {
-			NOT = { has_dlc = "The Sword of Islam" }
-			OR = {
-				religion = sunni
-				religion = zikri
-				religion = yazidi
-				religion = shiite
-				religion = druze
-				religion = hurufi
-				religion = ibadi
-				religion = kharijite
-			}
-		}
-		AND = {
 			NOT = { has_dlc = "Sons of Abraham" }
 			OR = {
 				religion = jewish
-				religion = samaritan
-				religion = karaite
+				religion = reform
 			}
 		}
 		AND = {
 			NOT = { has_dlc = "The Old Gods" }
 			OR = {
-				religion = zoroastrian
-				religion = mazdaki
-				religion = manichean
-				religion = khurmazta
-				religion = bon
 				religion = norse_pagan
 				religion = norse_pagan_reformed
-				religion = baltic_pagan
-				religion = baltic_pagan_reformed
-				religion = finnish_pagan
-				religion = finnish_pagan_reformed
-				religion = slavic_pagan
-				religion = slavic_pagan_reformed
-				religion = tengri_pagan
-				religion = tengri_pagan_reformed
-				religion = west_african_pagan
-				religion = west_african_pagan_reformed
-				religion = zun_pagan
-				religion = zun_pagan_reformed
-				religion = hellenic_pagan
+				religion = occultist_pagan
+				religion = occultist_reformed
+				religion = revelationist
+				religion = revelationist_reformed
+				religion = rust_cultist
+				religion = rust_cultist_reformed
+				religion = thelemic
+				religion = celticist
 				religion = pagan
-				religion = aztec
-				religion = aztec_reformed
 			}
 		}
 		AND = {
 			NOT = { has_dlc = "Rajas of India" }
 			OR = {
 				religion = hindu
-				religion = buddhist
-				religion = jain
 			}
-		}
-		AND = {
-			NOT = { has_dlc = "Jade Dragon" }
-			religion = taoist
 		}
 	}
 }
@@ -5282,7 +5272,7 @@ is_senior_age_trigger = {
 # Root - The executioner
 # event_target:kinslayer_target - The person being executed
 will_add_kinslayer = {
-	NOT = { religion_group = muslim }
+	#NOT = { religion_group = muslim }
 	OR = {
 		AND = {
 			NOT = { trait = kinslayer }
