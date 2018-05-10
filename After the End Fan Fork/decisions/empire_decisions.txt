@@ -383,7 +383,7 @@ decisions = {
 						limit = {
 							completely_controls = d_niagra
 						}
-						d_niagra { 
+						d_niagra = { 
 							de_jure_liege = k_hudsonia
 						}
 					}
@@ -605,7 +605,7 @@ decisions = {
 						limit = {
 							completely_controls = d_niagra
 						}
-						d_niagra { 
+						d_niagra = { 
 							de_jure_liege = k_commonwealth
 						}
 					}

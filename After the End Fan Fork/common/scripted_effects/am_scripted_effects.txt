@@ -56,7 +56,7 @@ add_sympathy_effect = {
 	if = {
 		limit = { religion_group = pirate }
 		add_trait = sympathy_pirate
-	
+	}
 	if = {
 		limit = { religion_group = jewish_group }
 		add_trait = sympathy_judaism
@@ -5723,3 +5723,40 @@ increase_visibility_minor_effect = {
 	}
 }
 
+join_prev_faculty_society = {
+	if = {
+		limit = { PREV = { society_member_of = university_yale } }
+		join_society = university_yale
+	}
+	if = {
+		limit = { PREV = { society_member_of = university_mcgill } }
+		join_society = university_mcgill
+	}
+	if = {
+		limit = { PREV = { society_member_of = university_UTS } }
+		join_society = university_UTS
+	}
+	if = {
+		limit = { PREV = { society_member_of = university_cleveland } }
+		join_society = university_cleveland
+	}
+	if = {
+		limit = { PREV = { society_member_of = university_west_indies } }
+		join_society = university_west_indies
+	}
+	if = {
+		limit = { PREV = { society_member_of = university_atlanta } }
+		join_society = university_atlanta
+	}
+	if = {
+		limit = { PREV = { society_member_of = university_st_luis } }
+		join_society = university_st_luis
+	}
+	if = {
+		limit = { PREV = { society_member_of = university_UCLA } }
+		join_society = university_UCLA
+	}
+	else = {
+		join_society = university_west_indies
+	}
+}
