@@ -691,7 +691,9 @@ restore_archbishop_in_canterbury;Restore the Archbishop in Canterbury;;;;;;;;;;;
 restore_archbishop_in_canterbury_desc;The Archbishop of Canterbury has lost control of his secular domain, but it is within my power to restore New Canterbury to him!;;;;;;;;;;;;;x
 restore_quorum_in_salt_lake;Restore the Quorum of the Twelve in Salt Lake City;;;;;;;;;;;;;x
 restore_quorum_in_salt_lake_desc;The Quorum of the Twelve have lost control of their secular domain, but it is within my power to restore the Temple Square to them!;;;;;;;;;;;;;x
-opinion_restored_to_rome;Restored to the holy city;;;;;;;;;;;;x
+restore_patriarch_in_chicago;Restore the Patriarch of the East in Chicago;;;;;;;;;;;;;x
+restore_patriarch_in_chicago_desc;The Patriarch has lost control of his secular domain, but it is within my power to restore Chicago to him!;;;;;;;;;;;;;x
+opinion_restored_to_rome;Restored to the Holy City;;;;;;;;;;;;x
 
 become_libertador;Claim Descent from El Libertador;;;;;;;;;;;;;x
 become_libertador_desc;If you can unify all of Gran Colombia, it will be a sign that you carry in your veins the blood of El Libertador himself and are blessed by the Saints.;;;;;;;;;;;;;x
